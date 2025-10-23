@@ -1,0 +1,8 @@
+C:\Users\Бадма\Desktop\mtusi\5сем\волков\itog\Simulation\x64\Debug\Simulation.vcxproj.AssemblyReference.cache
+C:\Users\Бадма\Desktop\mtusi\5сем\волков\itog\Simulation\x64\Debug\Simulation.PrinterSimulation.resources
+C:\Users\Бадма\Desktop\mtusi\5сем\волков\itog\Simulation\x64\Debug\Simulation.vcxproj.GenerateResource.cache
+C:\Users\Бадма\Desktop\mtusi\5сем\волков\itog\Simulation\x64\Debug\Simulation.vcxproj.CopyComplete
+C:\Users\zudae\Desktop\проекты\ООП\Simulation\x64\Debug\Simulation.vcxproj.AssemblyReference.cache
+C:\Users\zudae\Desktop\проекты\ООП\Simulation\x64\Debug\Simulation.PrinterSimulation.resources
+C:\Users\zudae\Desktop\проекты\ООП\Simulation\x64\Debug\Simulation.vcxproj.GenerateResource.cache
+C:\Users\zudae\Desktop\проекты\ООП\Simulation\x64\Debug\Simulati.0712692F.Up2Date

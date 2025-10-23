@@ -1,0 +1,2 @@
+C:\Users\Бадма\Desktop\mtusi\5сем\волков\itog\SimulationObjects\x64\Debug\SimulationObjects.vcxproj.AssemblyReference.cache
+C:\Users\zudae\Desktop\проекты\ООП\SimulationObjects\x64\Debug\SimulationObjects.vcxproj.AssemblyReference.cache

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{86E8392C-2857-4C2A-A974-977F7EA5ABFD}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Simulation</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DelayedImageChanger.cpp" />
+    <ClCompile Include="DelayedVisibilityChanger.cpp" />
+    <ClCompile Include="PrinterSimulation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DelayedImageChanger.h" />
+    <ClInclude Include="DelayedVisibilityChanger.h" />
+    <ClInclude Include="PrinterSimulation.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PrinterSimulation.resx">
+      <DependentUpon>PrinterSimulation.h</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimulationObjects\SimulationObjects.vcxproj">
+      <Project>{5add7543-60b4-4ed2-a2a8-f580bb858f07}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Cables\Cables.png" />
+    <Image Include="Cartridges\BlackCartridge_0-25.png" />
+    <Image Include="Cartridges\BlackCartridge_0.png" />
+    <Image Include="Cartridges\BlackCartridge_100.png" />
+    <Image Include="Cartridges\BlackCartridge_25-50.png" />
+    <Image Include="Cartridges\BlackCartridge_50-75.png" />
+    <Image Include="Cartridges\BlackCartridge_75-100.png" />
+    <Image Include="Cartridges\Cartridge_0-25.png" />
+    <Image Include="Cartridges\Cartridge_0.png" />
+    <Image Include="Cartridges\Cartridge_100.png" />
+    <Image Include="Cartridges\Cartridge_25-50.png" />
+    <Image Include="Cartridges\Cartridge_50-75.png" />
+    <Image Include="Cartridges\Cartridge_75-100.png" />
+    <Image Include="Cartridges\CyanCartridge_0-25.png" />
+    <Image Include="Cartridges\CyanCartridge_0.png" />
+    <Image Include="Cartridges\CyanCartridge_100.png" />
+    <Image Include="Cartridges\CyanCartridge_25-50.png" />
+    <Image Include="Cartridges\CyanCartridge_50-75.png" />
+    <Image Include="Cartridges\CyanCartridge_75-100.png" />
+    <Image Include="Cartridges\MagentaCartridge_0-25.png" />
+    <Image Include="Cartridges\MagentaCartridge_0.png" />
+    <Image Include="Cartridges\MagentaCartridge_100.png" />
+    <Image Include="Cartridges\MagentaCartridge_25-50.png" />
+    <Image Include="Cartridges\MagentaCartridge_50-75.png" />
+    <Image Include="Cartridges\MagentaCartridge_75-100.png" />
+    <Image Include="Cartridges\YellowCartridge_0-25.png" />
+    <Image Include="Cartridges\YellowCartridge_0.png" />
+    <Image Include="Cartridges\YellowCartridge_100.png" />
+    <Image Include="Cartridges\YellowCartridge_25-50.png" />
+    <Image Include="Cartridges\YellowCartridge_50-75.png" />
+    <Image Include="Cartridges\YellowCartridge_75-100.png" />
+    <Image Include="Computer\Computer.png" />
+    <Image Include="Computer\ComputerNoNetwork.png" />
+    <Image Include="Human\FixPaperJam.png" />
+    <Image Include="Human\RefillBlackCartridge.png" />
+    <Image Include="Human\RefillCyanCartridge.png" />
+    <Image Include="Human\RefillMagentaCartridge.png" />
+    <Image Include="Human\RefillPaperTray.png" />
+    <Image Include="Human\RefillYellowCartridge.png" />
+    <Image Include="InkjetPrinter\Printer.png" />
+    <Image Include="InkjetPrinter\PrinterError.png" />
+    <Image Include="InkjetPrinter\PrinterMaintance.png" />
+    <Image Include="InkjetPrinter\PrinterOutOfPaper.png" />
+    <Image Include="InkjetPrinter\Printing.png" />
+    <Image Include="InternetAdapter\Disable.png" />
+    <Image Include="InternetAdapter\Enable.png" />
+    <Image Include="Internet\DocumentsExists.png" />
+    <Image Include="Internet\DocumentsNotExists.png" />
+    <Image Include="Internet\GeneratingDocuments.gif" />
+    <Image Include="Internet\Internet.gif" />
+    <Image Include="LaserPrinter\Printer.png" />
+    <Image Include="LaserPrinter\PrinterError.png" />
+    <Image Include="LaserPrinter\PrinterMaintance.png" />
+    <Image Include="LaserPrinter\PrinterOutOfPaper.png" />
+    <Image Include="LaserPrinter\Printing.png" />
+    <Image Include="PaperTray\PaperTray_0.png" />
+    <Image Include="PaperTray\PaperTray_100.png" />
+    <Image Include="PaperTray\PaperTray_16.png" />
+    <Image Include="PaperTray\PaperTray_28.png" />
+    <Image Include="PaperTray\PaperTray_4.png" />
+    <Image Include="PaperTray\PaperTray_40.png" />
+    <Image Include="PaperTray\PaperTray_52.png" />
+    <Image Include="PaperTray\PaperTray_64.png" />
+    <Image Include="PaperTray\PaperTray_76.png" />
+    <Image Include="PaperTray\PaperTray_88.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

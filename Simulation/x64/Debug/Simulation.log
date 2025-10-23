@@ -1,0 +1,10 @@
+﻿  DelayedImageChanger.cpp
+  DelayedVisibilityChanger.cpp
+  PrinterSimulation.cpp
+C:\Users\zudae\Desktop\проекты\ООП\Simulation\PrinterSimulation.h(1,13): warning C4081: требуется "newline"; обнаружен ";"
+  (компиляция исходного файла "PrinterSimulation.cpp")
+  
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Создание кода...
+  DelayedImageChanger.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Simulation.vcxproj -> C:\Users\zudae\Desktop\проекты\ООП\x64\Debug\Simulation.exe
